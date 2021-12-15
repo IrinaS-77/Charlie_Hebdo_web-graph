@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "Общее количество твиттов - 420 080\nВсего пользователей, опубликававших свои твитты по заданному набору хэш-тэгов в период с  07.01.2015 по 10.01.2015 - 266 904\n\nОбщее количество Likes у вешеуказанных пользователей - 133 0728\nОбщее количество Retwitts у вешеуказанных пользователей - 1 851 412\nОбщее количество комментариев у вешеуказанных пользователей - 206 344\n\nВсего пользователей приняло участие в дискуссии (вершин ориентированного графа дискуссии) - 719 503\nВсего направленных связей в между пользователями дискуссии (направленных ребер графа дискуссии) - 981 131",
+    "intro": "Пользовательский веб-граф по событиям в Шарли Эбдо 2015 г. на основе дискуссии в интернете.\n\nВсего пользователей приняло участие в дискуссии  - 719 503\nВсего направленных связей в между пользователями дискуссии  - 981 131",
+    "title": "Шарли Эбдо - Франция"
+  },
+  "legend": {
+    "edgeLabel": "Реакция",
+    "colorLabel": "Модульность",
+    "nodeLabel": "Аккаунт"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#fff",
+      "labelThreshold": 8,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 23
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.01,
+      "minEdgeSize": 0.01,
+      "minNodeSize": 0.1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

@@ -1,0 +1,2 @@
+network filter=lfs diff=lfs merge=lfs -text
+network/data.json filter=lfs diff=lfs merge=lfs -text
